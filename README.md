@@ -1,2 +1,2 @@
 # Login
-avences login, conecxion a base de datos, recuperacion de contraseña
+avances login, conexion a base de datos, recuperacion de contraseña
