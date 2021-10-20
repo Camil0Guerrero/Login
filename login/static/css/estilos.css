@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 1080px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 101vh;
+    margin: -60px;
+}
+
+.navbar{
+    width: 860px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 40px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    background: #3c4d41;
+    cursor: pointer;
+    color: #ff7200;
+}
+
+/* .search{
+    width: 330px;
+    float: left;
+    margin-left: 200px;
+
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 180px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color:#fff;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+} */
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color:#fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 580px;
+    height: 200px;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:#ff7200;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:.4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transform: 0.3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 20px;
+    left: 620px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    background-color: #3c4d41;
+    border-radius: 10px;
+    margin:2px;
+    padding:8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background:transparent;
+    border:1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:#fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family:sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border:none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    color:#fff;
+    transition:.4s ease;
+}
+
+.btnn:hover{
+    background:#fff;
+    color:#ff7200;
+
+}
+
+.btnn a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.icons ion-icon{
+    color:#fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .3s ease;
+}
+
+.icons ion-icon:hover{
+    color:#ff7200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css del registro */
+
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body{
+    background-image: url("imagenes/3.jpg"); 
+}
+*/
+
+.form-registro{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3px;
+    font-family: "Monserrat",sans-serif;
+    color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    position: absolute;
+    left: 30%;
+    top: -25%;
+    text-align: center;
+    display: none;  
+    transition: .3s ease all;  
+    transform: scale(0.9);
+}
+
+.form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid #ff7200;
+    color:#fff;
+    font-family: "times new roman";
+    font-size: 18px; 
+}
+
+.form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    
+}
+
+.form-registro a{
+    color:#fff;
+    text-decoration: underline;
+}
+
+.form-registro a:hover{
+    color: #ff7200;
+    text-decoration: underline;
+}
+
+.form-registro .buton{
+    width: 100%;
+    background: rgb(175, 66, 16);
+    border:none;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 16px;
+    transition: .3 ease all;
+}
+
+.form-registro .buton:hover{
+    background: #142883;
+    color: #fff;
+    cursor: pointer;
+}
+
+#cerrar{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    /* text-align: right; */
+    color: rgb(255, 255, 255);
+    transition: .3s ease all;
+    position:absolute;
+    background: #ff7200;
+    right: 3%;
+    top: 15px;
+}
+
+#cerrar:hover{
+    background: #fff;
+    color: #fff;
+}
+
+
+/* Animaciones  */
+
+/* .form-registro {
+    opacity:1
+    transform: scale(1);
+} */
+
+
+
+
